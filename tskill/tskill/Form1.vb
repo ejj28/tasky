@@ -21,7 +21,7 @@ Imports System.Diagnostics
 
 Public Class Form1
 
-    Dim version = "INDEV"
+    Dim version = "1.0.0"
 
     Dim cpu As New PerformanceCounter()
     Dim datavalues As New List(Of Integer)
