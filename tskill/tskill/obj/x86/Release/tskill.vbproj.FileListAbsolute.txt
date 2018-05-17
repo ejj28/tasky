@@ -1,0 +1,28 @@
+\\2190M01\users\Student\CollErik192\Visual Studio 2010\Projects\tskill\tskill\obj\x86\Release\WindowsApplication1.Form1.resources
+\\2190M01\users\Student\CollErik192\Visual Studio 2010\Projects\tskill\tskill\obj\x86\Release\WindowsApplication1.Resources.resources
+\\2190M01\users\Student\CollErik192\Visual Studio 2010\Projects\tskill\tskill\obj\x86\Release\tskill.vbproj.GenerateResource.Cache
+\\2190M01\users\Student\CollErik192\Visual Studio 2010\Projects\tskill\tskill\bin\Release\Tasky.exe
+\\2190M01\users\Student\CollErik192\Visual Studio 2010\Projects\tskill\tskill\bin\Release\Tasky.pdb
+\\2190M01\users\Student\CollErik192\Visual Studio 2010\Projects\tskill\tskill\bin\Release\Tasky.xml
+\\2190M01\users\Student\CollErik192\Visual Studio 2010\Projects\tskill\tskill\obj\x86\Release\Tasky.exe
+\\2190M01\users\Student\CollErik192\Visual Studio 2010\Projects\tskill\tskill\obj\x86\Release\Tasky.xml
+\\2190M01\users\Student\CollErik192\Visual Studio 2010\Projects\tskill\tskill\obj\x86\Release\Tasky.pdb
+\\2190M01\users\Student\CollErik192\Visual Studio 2010\Projects\tskill\tskill\bin\Release\Tasky.exe.manifest
+\\2190M01\users\Student\CollErik192\Visual Studio 2010\Projects\tskill\tskill\bin\Release\Tasky.application
+\\2190M01\users\Student\CollErik192\Visual Studio 2010\Projects\tskill\tskill\obj\x86\Release\Tasky.exe.manifest
+\\2190M01\users\Student\CollErik192\Visual Studio 2010\Projects\tskill\tskill\obj\x86\Release\Tasky.application
+\\2190M01\users\Student\CollErik192\Visual Studio 2010\Projects\tskill\tskill\obj\x86\Release\WindowsApplication1.Form2.resources
+C:\Users\Jason\Searches\Downloads\tasky_5-16\tskill\tskill\obj\x86\Release\Tasky.exe
+C:\Users\Jason\Searches\Downloads\tasky_5-16\tskill\tskill\obj\x86\Release\Tasky.xml
+C:\Users\Jason\Searches\Downloads\tasky_5-16\tskill\tskill\obj\x86\Release\Tasky.pdb
+C:\Users\Jason\Searches\Downloads\tasky_5-16\tskill\tskill\bin\Release\Tasky.exe.manifest
+C:\Users\Jason\Searches\Downloads\tasky_5-16\tskill\tskill\bin\Release\Tasky.application
+C:\Users\Jason\Searches\Downloads\tasky_5-16\tskill\tskill\bin\Release\Tasky.exe
+C:\Users\Jason\Searches\Downloads\tasky_5-16\tskill\tskill\bin\Release\Tasky.pdb
+C:\Users\Jason\Searches\Downloads\tasky_5-16\tskill\tskill\bin\Release\Tasky.xml
+C:\Users\Jason\Searches\Downloads\tasky_5-16\tskill\tskill\obj\x86\Release\WindowsApplication1.Form1.resources
+C:\Users\Jason\Searches\Downloads\tasky_5-16\tskill\tskill\obj\x86\Release\WindowsApplication1.Form2.resources
+C:\Users\Jason\Searches\Downloads\tasky_5-16\tskill\tskill\obj\x86\Release\WindowsApplication1.Resources.resources
+C:\Users\Jason\Searches\Downloads\tasky_5-16\tskill\tskill\obj\x86\Release\tskill.vbproj.GenerateResource.Cache
+C:\Users\Jason\Searches\Downloads\tasky_5-16\tskill\tskill\obj\x86\Release\Tasky.exe.manifest
+C:\Users\Jason\Searches\Downloads\tasky_5-16\tskill\tskill\obj\x86\Release\Tasky.application
