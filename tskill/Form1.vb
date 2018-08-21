@@ -25,6 +25,9 @@ Public Class Form1
 
     Dim cpu As New PerformanceCounter()
     Dim datavalues As New List(Of Integer)
+    Dim cpuVals As New List(Of Integer)
+    Dim timerIter As New Integer
+    Dim cpuAvg As New Integer
 
     Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
 
@@ -108,19 +111,35 @@ Public Class Form1
 
     Private Sub Timer1_Tick(ByVal sender As Object, ByVal e As System.EventArgs) Handles Timer1.Tick
 
-        Chart1.Series("Series1").Points.Clear()
 
-        Label2.Text = cpu.NextValue()
-        datavalues.Add(Label2.Text)
-        If datavalues.Count > 20 Then
-            datavalues.RemoveAt(0)
+        cpuVals.Add(cpu.NextValue)
+
+
+
+        If timerIter = 10 Then
+            Dim t As Integer
+            timerIter = 1
+            For Each t In cpuVals
+                cpuAvg = cpuAvg + t
+            Next
+            cpuAvg = cpuAvg / 10
+            datavalues.Add(cpuAvg)
+            cpuVals.Clear()
+
+            Chart1.Series("Series1").Points.Clear()
+            If datavalues.Count > 20 Then
+                datavalues.RemoveAt(0)
+            End If
+            Dim i As Integer
+            Dim count = 0
+            For Each i In datavalues
+                Chart1.Series("Series1").Points.AddXY(count, i)
+                count = count + 1
+            Next
+        Else
+            timerIter = timerIter + 1
         End If
-        Dim i As Integer
-        Dim count = 0
-        For Each i In datavalues
-            Chart1.Series("Series1").Points.AddXY(count, i)
-            count = count + 1
-        Next
+
     End Sub
 
     Private Sub LinkLabel1_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles LinkLabel1.Click
