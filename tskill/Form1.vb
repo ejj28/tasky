@@ -87,8 +87,12 @@ Public Class Form1
         Dim itm As ListViewItem
 
         For Each p As Process In Process.GetProcesses
+            If p.Responding = True Then
+                proc(1) = "Yes"
+            Else
+                proc(1) = "No"
+            End If
             proc(0) = p.ProcessName.ToString
-            proc(1) = p.Responding.ToString
             proc(2) = p.Id.ToString
             proc(3) = (p.WorkingSet64 / 1024).ToString & "K"
             itm = New ListViewItem(proc)
