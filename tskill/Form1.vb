@@ -136,6 +136,7 @@ Public Class Form1
                 Chart1.Series("Series1").Points.AddXY(count, i)
                 count = count + 1
             Next
+            Label2.Text = cpuAvg.ToString + "%"
         Else
             timerIter = timerIter + 1
         End If
