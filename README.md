@@ -7,6 +7,7 @@ A simple task manager written in VB.NET
 
 [![Build Status](https://api.travis-ci.com/ejj28/tasky.svg?branch=master)](https://travis-ci.com/ejj28/tasky)
 
+![Commits since latest release](https://img.shields.io/github/commits-since/ejj28/tasky/latest.svg)
 
 ![alt text](https://github.com/ejj28/tasky/blob/master/screenshots/Tasky1.png "Tasky")
 
