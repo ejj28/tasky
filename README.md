@@ -9,7 +9,7 @@ Download [here](https://www.github.com/ejj28/tasky/releases "Download tasky")
 
 ![Commits since latest release](https://img.shields.io/github/commits-since/ejj28/tasky/latest.svg)
 
-![alt text](https://github.com/ejj28/tasky/blob/master/screenshots/Tasky1.png "Tasky")
+![alt text](https://github.com/ejj28/tasky/blob/master/screenshots/Tasky-win10.png "Tasky")
 
 Tasky includes a process manager, CPU utilization monitor and a system information viewer.
 
