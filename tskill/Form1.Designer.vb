@@ -23,9 +23,9 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim ChartArea2 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
-        Dim Legend2 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
-        Dim Series2 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
+        Dim ChartArea1 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
+        Dim Legend1 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
+        Dim Series1 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
@@ -140,7 +140,7 @@ Partial Class Form1
         Me.TabPage2.Controls.Add(Me.Label1)
         Me.TabPage2.Location = New System.Drawing.Point(4, 22)
         Me.TabPage2.Name = "TabPage2"
-        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3, 3, 3, 3)
+        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
         Me.TabPage2.Size = New System.Drawing.Size(418, 245)
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "Performance"
@@ -148,20 +148,20 @@ Partial Class Form1
         '
         'Chart1
         '
-        ChartArea2.AxisX.LabelStyle.Enabled = False
-        ChartArea2.AxisX.MajorTickMark.Enabled = False
-        ChartArea2.Name = "ChartArea1"
-        Me.Chart1.ChartAreas.Add(ChartArea2)
-        Legend2.Enabled = False
-        Legend2.Name = "Legend1"
-        Me.Chart1.Legends.Add(Legend2)
+        ChartArea1.AxisX.LabelStyle.Enabled = False
+        ChartArea1.AxisX.MajorTickMark.Enabled = False
+        ChartArea1.Name = "ChartArea1"
+        Me.Chart1.ChartAreas.Add(ChartArea1)
+        Legend1.Enabled = False
+        Legend1.Name = "Legend1"
+        Me.Chart1.Legends.Add(Legend1)
         Me.Chart1.Location = New System.Drawing.Point(6, 32)
         Me.Chart1.Name = "Chart1"
-        Series2.ChartArea = "ChartArea1"
-        Series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line
-        Series2.Legend = "Legend1"
-        Series2.Name = "Series1"
-        Me.Chart1.Series.Add(Series2)
+        Series1.ChartArea = "ChartArea1"
+        Series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line
+        Series1.Legend = "Legend1"
+        Series1.Name = "Series1"
+        Me.Chart1.Series.Add(Series1)
         Me.Chart1.Size = New System.Drawing.Size(342, 181)
         Me.Chart1.TabIndex = 3
         Me.Chart1.Text = "Chart1"
@@ -191,7 +191,7 @@ Partial Class Form1
         Me.TabPage1.Controls.Add(Me.Button2)
         Me.TabPage1.Location = New System.Drawing.Point(4, 22)
         Me.TabPage1.Name = "TabPage1"
-        Me.TabPage1.Padding = New System.Windows.Forms.Padding(3, 3, 3, 3)
+        Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
         Me.TabPage1.Size = New System.Drawing.Size(418, 245)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Tasks"
@@ -200,6 +200,8 @@ Partial Class Form1
         'ListView2
         '
         Me.ListView2.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader1, Me.ColumnHeader2, Me.ColumnHeader3, Me.ColumnHeader4})
+        Me.ListView2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!)
+        Me.ListView2.HideSelection = False
         Me.ListView2.Location = New System.Drawing.Point(3, 3)
         Me.ListView2.Name = "ListView2"
         Me.ListView2.Size = New System.Drawing.Size(409, 185)
@@ -228,7 +230,7 @@ Partial Class Form1
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(309, 194)
+        Me.Button1.Location = New System.Drawing.Point(306, 194)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(106, 45)
         Me.Button1.TabIndex = 4
@@ -237,7 +239,7 @@ Partial Class Form1
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(6, 194)
+        Me.Button2.Location = New System.Drawing.Point(3, 194)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(297, 45)
         Me.Button2.TabIndex = 3
@@ -297,9 +299,9 @@ Partial Class Form1
         Me.Label6.AutoSize = True
         Me.Label6.Location = New System.Drawing.Point(4, 39)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(145, 13)
+        Me.Label6.Size = New System.Drawing.Size(172, 13)
         Me.Label6.TabIndex = 5
-        Me.Label6.Text = "Copyright (c) 2018 Erik Colley"
+        Me.Label6.Text = "Copyright (c) 2018-2020 Erik Colley"
         '
         'Label5
         '

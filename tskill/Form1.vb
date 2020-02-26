@@ -35,6 +35,8 @@ Public Class Form1
 
         Form2.TextBox1.Text = My.Resources.COPYING.ToString
 
+        ListView2.Columns(3).TextAlign = HorizontalAlignment.Right
+
         refreshlist()
 
         For i = 0 To 20
@@ -94,7 +96,7 @@ Public Class Form1
             End If
             proc(0) = p.ProcessName.ToString
             proc(2) = p.Id.ToString
-            proc(3) = (p.WorkingSet64 / 1024).ToString & "K"
+            proc(3) = ((Fix((p.WorkingSet64 / (1024 * 1024)) * 100) / 100).ToString & " MiB")
             itm = New ListViewItem(proc)
             ListView2.Items.Add(itm)
 
