@@ -31,6 +31,8 @@ Public Class Form1
 
     Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
 
+        Me.MaximumSize = New Size(Me.Width, Screen.PrimaryScreen.WorkingArea.Height * 2)
+        Me.MinimumSize = New Size(Me.Width, 0)
         Label5.Text = "Version " + version
 
         Form2.TextBox1.Text = My.Resources.COPYING.ToString
@@ -112,7 +114,13 @@ Public Class Form1
     Private Sub Button1_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles Button1.Click
         refreshlist()
     End Sub
+    Private Sub windowResize(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Resize
 
+        TabControl1.Height = Me.Height - 62
+        Button2.Top = TabControl1.Height - 78
+        Button1.Top = TabControl1.Height - 78
+        ListView2.Height = TabControl1.Height - 88
+    End Sub
 
 
     Private Sub Timer1_Tick(ByVal sender As Object, ByVal e As System.EventArgs) Handles Timer1.Tick

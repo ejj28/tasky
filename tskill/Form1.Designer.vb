@@ -204,7 +204,7 @@ Partial Class Form1
         Me.ListView2.HideSelection = False
         Me.ListView2.Location = New System.Drawing.Point(3, 3)
         Me.ListView2.Name = "ListView2"
-        Me.ListView2.Size = New System.Drawing.Size(409, 185)
+        Me.ListView2.Size = New System.Drawing.Size(412, 185)
         Me.ListView2.TabIndex = 5
         Me.ListView2.UseCompatibleStateImageBehavior = False
         Me.ListView2.View = System.Windows.Forms.View.Details
@@ -232,7 +232,7 @@ Partial Class Form1
         '
         Me.Button1.Location = New System.Drawing.Point(306, 194)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(106, 45)
+        Me.Button1.Size = New System.Drawing.Size(109, 45)
         Me.Button1.TabIndex = 4
         Me.Button1.Text = "Refresh"
         Me.Button1.UseVisualStyleBackColor = True
